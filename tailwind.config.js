@@ -15,6 +15,7 @@ export default {
             body: "hsl(from var(--mantine-color-body) h s l / <alpha-value>)",
             text: "hsl(from var(--mantine-color-text) h s l / <alpha-value>)",
             border: "hsl(from var(--mantine-color-default-border) h s l / <alpha-value>)",
+            hover: "hsl(from var(--mantine-color-default-hover) h s l / <alpha-value>)",
         },
 
         spacing: {
