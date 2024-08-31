@@ -7,11 +7,13 @@ const theme = createTheme({
 })
 
 /**
+ * @typedef {object} RootLayoutProps
+ * @property {string} [title]
+ * @property {React.ReactNode} [children]
+ *
  *
  * @function RootLayout
- * @param {object} props
- * @param {string} [props.title]
- * @param {React.ReactNode} props.children
+ * @param {RootLayoutProps} props
  * @returns {React.ReactNode}
  */
 function RootLayout({ title, children }) {
