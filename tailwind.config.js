@@ -16,6 +16,11 @@ export default {
             text: "hsl(from var(--mantine-color-text) h s l / <alpha-value>)",
             border: "hsl(from var(--mantine-color-default-border) h s l / <alpha-value>)",
             hover: "hsl(from var(--mantine-color-default-hover) h s l / <alpha-value>)",
+
+            primary: {
+                filled: "hsl(from var(--mantine-primary-color-filled) h s l / <alpha-value>)",
+                "light-hover": "hsl(from var(--mantine-primary-color-light-hover) h s l)"
+            }
         },
 
         spacing: {
