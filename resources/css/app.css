@@ -1,0 +1,24 @@
+@import "tailwindcss/base";
+@import "@mantine/core/styles.css";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+
+    *,
+    ::before,
+    ::after {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+        border-color: theme(colors[border]);
+    }
+
+    body {
+        font-family: theme(fontFamily[manrope]);
+        background-color: theme(colors[body]);
+        color: theme(colors[text]);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
