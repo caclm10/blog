@@ -36,3 +36,7 @@ pnpm-debug.log*
 next-env.d.ts
 # next-agents-md
 .next-docs/
+
+# local plans
+/app_plan.md
+
