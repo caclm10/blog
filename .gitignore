@@ -45,3 +45,6 @@ next-env.d.ts
 /database.sqlite-journal
 *.db
 *.db-journal
+
+# development progress
+/dev_progress.md
