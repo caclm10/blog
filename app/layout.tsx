@@ -1,8 +1,16 @@
+import type { Metadata } from "next"
 import { Geist, Geist_Mono, Figtree } from "next/font/google"
 
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
+
+// Page Metadata
+export const metadata: Metadata = {
+    title: "Lewin's Blog",
+    description:
+        "A personal blog about software development, technology, and programming.",
+}
 
 const figtree = Figtree({ subsets: ["latin"], variable: "--font-sans" })
 
