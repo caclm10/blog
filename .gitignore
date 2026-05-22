@@ -40,3 +40,8 @@ next-env.d.ts
 # local plans
 /app_plan.md
 
+# database
+/database.sqlite
+/database.sqlite-journal
+*.db
+*.db-journal
