@@ -48,3 +48,4 @@ next-env.d.ts
 
 # development progress
 /dev_progress.md
+/agent_memory.md
